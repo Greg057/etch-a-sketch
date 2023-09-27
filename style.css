@@ -1,0 +1,19 @@
+
+#grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    flex-shrink: 1;
+}
