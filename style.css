@@ -2,18 +2,18 @@
 #grid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 48px 0;
+    margin: 36px auto;
+    width: 700px;
+    height: 700px;
+    
 }
 
 .row {
     display: flex;
+    flex-grow: 1;
 }
 
 .square {
-    border: 2px solid black;
-    height: 40px;
-    width: 40px;
-    flex-shrink: 1;
+    border: 1px solid black;
+    flex-grow: 1;
 }
